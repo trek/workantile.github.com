@@ -86,3 +86,15 @@ h1 {
   color:#555;
   font-size:180%;
 }
+
+#maps-and-such {
+  width: 470px; 
+  height: 330px;
+  position:relative;
+}
+#maps-and-such img {
+  cursor:pointer;
+}
+#maps-and-such img, #map-container {
+  position:absolute;
+}
