@@ -13,8 +13,9 @@ $(document).ready(function(){
   
   var mapContainer = $('#map-container').hide();
   var mapStatic    = $('#map-static').click(function(){
+    mapContainer.show();
     $(this).fadeOut();
-    mapContainer.fadeIn();
+    
     var map = new google.maps.Map(document.getElementById('map-canvas'), myOptions);
     var workantile = new google.maps.Marker({
         position: latlng,

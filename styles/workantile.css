@@ -91,8 +91,10 @@ h1 {
   width: 470px; 
   height: 330px;
   position:relative;
+  overflow:hidden;
 }
 #maps-and-such img {
+  z-index:1;
   cursor:pointer;
 }
 #maps-and-such img, #map-container {
